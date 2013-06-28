@@ -19,6 +19,7 @@ class ProgramsController < ApplicationController
       format.html # show.html.erb
       format.json { render json: @program }
     end
+    flash[:notice] = 'Testing the flash message.'
   end
 
   # GET /programs/new

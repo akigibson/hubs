@@ -1,0 +1,22 @@
+%p{id: 'notice'}
+%h1 Hi, there!
+
+
+%p
+  %strong Organization name:
+  = @program.organization_name
+
+
+%p
+  %strong Location:
+  = @program.location 
+
+
+%p
+  %strong Type of training:
+  = @program.type_of_training 
+
+
+
+= link_to 'Edit', edit_program_path(@program)  |
+= link_to 'Back', programs_path 

@@ -1,0 +1,21 @@
+%h1 Listing programs
+
+%table
+  %tr
+    %thOrganization name
+    %thLocation
+    %thType of training
+    %th
+    %th
+    %th
+  
+  - @programs.each do |program|
+    %tr
+      %td= program.organization_name
+      %td= program.location 
+      %td= program.type_of_training 
+      %td= link_to 'Show', program 
+      %td= link_to 'Edit', edit_program_path(program) 
+      %td= link_to 'Destroy', program, method: :delete, data: { confirm: 'Are you sure?' }  
+
+= link_to 'New Program', new_program_path
