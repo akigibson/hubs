@@ -1,10 +1,13 @@
 Hub::Application.routes.draw do
+<<<<<<< HEAD
   resources :programs
 
 
   resources :names
 
 
+=======
+>>>>>>> 6eca28c43eecdd9c47b6a6b0a2ccfee1ba600399
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

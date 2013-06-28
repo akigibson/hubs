@@ -6,8 +6,11 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+<<<<<<< HEAD
 gem 'quiet_assets'
 gem 'haml'
+=======
+>>>>>>> 6eca28c43eecdd9c47b6a6b0a2ccfee1ba600399
 
 
 # Gems used only for assets and not required
