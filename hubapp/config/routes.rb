@@ -1,4 +1,7 @@
 Hub::Application.routes.draw do
+  resources :organization_names
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  location: MyString
+  type_of_training: MyString
+
+two:
+  location: MyString
+  type_of_training: MyString
