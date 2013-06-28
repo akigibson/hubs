@@ -1,5 +1,8 @@
 Hub::Application.routes.draw do
-  resources :organization_names
+  resources :programs
+
+
+  resources :names
 
 
   # The priority is based upon order of creation:
